@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Teachers from './Components/Teachers';
 import AddTeachers from './Components/AddTeachers';
 import UpdateTeachers from './Components/UpdateTeachers';
-import datas from './Data/datas';
+
 
 function App() {
   const [students, setStudents] = useState([]);
