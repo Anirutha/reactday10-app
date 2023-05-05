@@ -6,7 +6,7 @@ const DashBoard = () => {
   return (
   <Base
   title={"Welocome to B45WD"}
-  description={"This student list website"}
+  description={"This is Student & Teacher list website"}
   >
   
   </Base>
