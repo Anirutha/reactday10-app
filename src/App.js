@@ -35,8 +35,8 @@ function App() {
         const response = await fetch("https://6454e410a74f994b334bcd96.mockapi.io/teachers", {
           method:"GET",
         }); 
-        const data = await response.json();
-        if(data){
+        const datas = await response.json();
+        if(datas){
           setTeachers(datas)
         }
     }
